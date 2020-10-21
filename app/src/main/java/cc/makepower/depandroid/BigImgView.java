@@ -90,7 +90,7 @@ public class BigImgView extends View implements GestureDetector.OnGestureListene
         mRect.right=imageViewWidth;
         scale=viewWidth/(float)imageViewWidth;
         mRect.right=imageViewWidth;
-        mRect.bottom= (int) (imageViewHeight/scale);
+        mRect.bottom= (int) (viewHeight/scale);
 
     }
 
