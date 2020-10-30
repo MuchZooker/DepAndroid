@@ -1,4 +1,4 @@
-package cc.makepower.depandroid;
+package cc.makepower.depandroid.acti;
 
 import android.os.Bundle;
 
@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import androidx.appcompat.app.AppCompatActivity;
+import cc.makepower.depandroid.BigImgView;
+import cc.makepower.depandroid.R;
 
 public class BigImageLoadActivity extends AppCompatActivity {
     @Override
